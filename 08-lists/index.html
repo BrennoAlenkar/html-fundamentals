@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="Curso completo de HTML5 com foco nos fundamentos da linguagem, semântica, boas
+      práticas, acessibilidade e estruturação de páginas web modernas."
+    />
+    <meta name="author" content="Brenno Alencar" />
+
+    <title>Listas | HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>Listas ordenadas e listas não ordenadas</h1>
+
+      <!-- Listas também são usadas para criar menus -->
+      <nav aria-label="Navegação principal">
+        <ul>
+          <li><a href="#" aria-current="page">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Serviços</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Lista ordenada (<ol>): itens com ordem -->
+      <section>
+        <h2>Lista ordenada</h2>
+        <ol type="A">
+          <li>Acordar</li>
+          <li>Orar</li>
+          <li>Estudar</li>
+          <li>Caminhar</li>
+        </ol>
+      </section>
+
+      <!-- Outra lista ordenada com numeração romana -->
+      <section>
+        <h2>Outra lista ordenada</h2>
+        <ol type="I">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+        </ol>
+      </section>
+
+      <!-- Lista não ordenada (<ul>): itens sem ordem -->
+      <section>
+        <h2>Lista não ordenada</h2>
+        <ul>
+          <li>Arroz</li>
+          <li>Carne</li>
+          <li>Tomate</li>
+          <li>Suco</li>
+        </ul>
+      </section>
+
+      <!-- Lista dentro da outra (lista aninhada) -->
+      <section>
+        <h2>Lista dentro da outra</h2>
+        <ul>
+          <li>Arroz</li>
+          <li>Carne</li>
+          <li>
+            Suco
+            <ul>
+              <li>Suco de laranja</li>
+              <li>Suco de uva</li>
+              <li>Suco de maracujá</li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Brenno Alencar. Todos os direitos reservados.</p>
+    </footer>
+  </body>
+</html>
